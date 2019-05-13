@@ -3,12 +3,12 @@
 set -e
 set -x
 
-nbinteract --execute simulation.ipynb
+nbinteract --spec shlomihod/simulation-gender-gap/master --execute simulation.ipynb
 
 git checkout gh-pages
 
-mv simulation.html simulation.html
-git add simulation.html
+mv simulation.html index.html
+git add index.html
 git commit -m "automatic publish"
 git push
 
