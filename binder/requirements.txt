@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+seaborn
+folium
+matplotlib
+datascience
+ipywidgets>=7.0.0
+bqplot
+gensim
+sklearn
+nbinteract>=0.1.8
+ethically
