@@ -3,7 +3,7 @@
 set -e
 set -x
 
-nbinteract ---no-top-button --spec shlomihod/simulation-gender-gap/master --execute simulation.ipynb
+nbinteract --no-top-button --spec shlomihod/simulation-gender-gap/master --execute simulation.ipynb
 
 git checkout gh-pages
 
