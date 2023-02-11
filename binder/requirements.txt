@@ -9,7 +9,7 @@ defusedxml==0.6.0
 docopt==0.6.2
 entrypoints==0.3
 ipykernel==5.1.0
-ipython==7.5.0
+ipython==8.10.0
 ipython-genutils==0.2.0
 ipywidgets==7.4.2
 jedi==0.13.3
